@@ -1,0 +1,27 @@
+{
+    "name": "ability/composer-reader",
+    "description": "A simple composer.json file reader",
+    "type": "library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.0"
+    },
+    "keywords": [
+        "composer",
+        "reader"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ability\\ComposerReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman Zhakhov",
+            "email": "roman.zhakhov@thomsonreuters.com"
+        }
+    ],
+    "license": "MIT"
+}
