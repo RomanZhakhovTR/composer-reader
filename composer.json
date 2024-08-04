@@ -3,7 +3,7 @@
     "description": "A simple composer.json file reader",
     "type": "library",
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.1"
     },
     "require-dev": {
         "symfony/var-dumper": "^7.0"
