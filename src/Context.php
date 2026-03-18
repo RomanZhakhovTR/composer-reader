@@ -101,7 +101,7 @@ class Context implements ArrayAccess, JsonSerializable {
 	/**
 	 * @inheritDoc
 	 */
-	public function offsetGet( mixed $offset ) {
+	public function offsetGet( mixed $offset ): mixed {
 		return $this->get( $offset );
 	}
 
