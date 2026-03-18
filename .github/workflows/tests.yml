@@ -37,7 +37,7 @@ jobs:
           key: ${{ runner.os }}-php-${{ matrix.php }}-vendor-${{ hashFiles('composer.lock') }}
 
       - name: Install dependencies
-        run: composer install --prefer-dist --no-progress --no-interaction --no-audit
+        run: composer install --prefer-dist --no-progress --no-interaction
 
       - name: Run tests
         run: composer test
